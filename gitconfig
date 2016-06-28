@@ -1,0 +1,43 @@
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  b = branch
+  cfg = config
+  r = remote
+  m = merge
+  pl = pull
+  sfetch = !git svn fetch
+  spl = !git svn fetch && git svn rebase
+  sps = !git svn dcommit
+  ps = push
+  l = log
+  sb = show-branch
+  di = diff
+
+  glog = log --graph --pretty=oneline --abbrev-commit --color --decorate --date-order
+  dl = log --date-order --color --graph --decorate --pretty=oneline --abbrev-commit
+  dla = log --date-order --color --graph --decorate --pretty=oneline --abbrev-commit --all
+  dlb = log --date-order --color --graph --decorate --pretty=oneline --abbrev-commit --all --simplify-by-decoration
+  dlg = log --date-order --color --graph --decorate
+
+  gl = log --graph --pretty=format:'%h%Cred%d%Creset @%Cgreen%an%Creset %s [%ar]' --abbrev-commit --color --decorate --date-order
+
+  dc = diff --color --cached
+
+
+[color]
+  ui = auto
+
+[push]
+    default = current
+
+[user]
+  name = wb-zhouhaojie
+  email = wb-zhouhaojie@taobao.com
+
+[core]
+  editor = vim -C
+	autocrlf = input
+#	excludesfile = ~/.git_global_ignore
+
