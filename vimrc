@@ -23,7 +23,8 @@ Plugin 'mattn/emmet-vim'
 " PHP 代码格式化插件
 Plugin 'stephpy/vim-php-cs-fixer'
 " 状态栏
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 "顶部tab页切换
 Plugin 'mkitt/tabline.vim'
 " 语法检查
